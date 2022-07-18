@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body
+{
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Begin of define frame size*/
+.ScreenSize
+{
+    width:1440px;
+    height:900px;
+    border: 1px solid black;
+    background-color: hsl(30, 38%, 92%);
+}
+.verticalcenter
+{
+    padding: 14% 0px;
+}
+
+.CardSize
+{
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    margin: auto;
+}
+/* End of define frame size */
+
+/* Begin of Left side of Card */
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    border-radius: 5% 0 0 5%;
+}
+/* End of Left side of Card */
+
+/* Begin of Description of Right side of Card */
+.CardInfo
+{
+    width: 300px;
+    height: 450px;
+    float: right;
+}
+
+.centerInfo
+{
+    padding: 9.5%;
+}
+
+.title
+{
+    font-size: 28px;
+    margin: 20px 0px 20px 0px;
+    color: hsl(212, 21%, 14%);
+}
+
+.Description
+{
+    line-height: 2;
+}
+
+div.PriceInfo
+{
+    height: 35px;
+    margin: 20px 0px;
+}
+
+div.discountPrice
+{
+    width: 115px;
+    height: 35px;
+    float: left;
+}
+
+div.regularPrice
+{
+    width: 115px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+
+span.discount
+{
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+span.regular
+{
+    
+    text-decoration: line-through;
+}
+
+button
+{
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    padding: 15px 68px;
+    border: none;
+    border-radius: 10px;
+}
+/* End of Description of Right side of Card */
+
+/* Begin of Set Font Family */
+#font1_1
+{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+#font1_2
+{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    
+}
+
+#font2
+{
+    font-family: Fraunces, serif;
+}
+/* End of Set Font Family*/
+
+/* Begin User Active */
+button:hover
+{
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+/* End User Active */
+
+/* Begin of Atrribution*/
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+/* End of Atrribution */
