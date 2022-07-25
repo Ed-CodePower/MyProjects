@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body
+{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin: 0;
+    padding: 50% 0;
+}
+
+.board
+{
+    width: 80%;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 5%;
+    padding: 6% 5%;
+    margin: auto;
+}
+
+img.star
+{
+    background-color: hsl(216, 12%, 54%, 0.1);
+    padding: 4%;
+    border-radius: 50%;
+}
+
+h1
+{
+    font-weight: 700;
+    margin: 3% 0;
+    font-size: 25.5px;
+}
+
+p
+{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+
+.container-rating
+{
+    display: flex;
+}
+
+.rating-icon
+{
+    background-color: hsl(216, 12%, 54%, 0.1);
+    margin: 2.6%;
+    padding: 4% 6%;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+    text-align: center;
+    font-weight: 700;
+}
+
+button
+{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 4% 42%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+button:hover
+{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.Rating
+{
+    display: block;
+}
+
+.ThankYou
+{
+    display: none;
+    text-align: center;
+}
+
+p.resultRating
+{
+    width: 60%;
+    border-radius: 15px;
+    padding-top: 5px;
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%, 0.1);
+    margin: 20px auto;
+}
+
+/* font */
+*
+{
+    font-family: Overpass, sans-serif;
+}
+
+/* Began Attribution */
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+/* End Attribution */
+
+@media only screen and (min-width: 430px)
+{
+    body
+    {
+        padding: 16.6% 0;
+    }
+
+    .board
+    {
+        width: 23.5%;
+        padding: 3% 2%;
+    }
+
+    .rating-icon
+    {
+        padding: 4% 5.5%;
+    }
+
+    button
+    {
+        border-radius: 25px;
+    }
+
+    p.resultRating
+    {
+        width: 55%;
+        margin: 25px auto;
+    }
+}
